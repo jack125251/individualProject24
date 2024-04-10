@@ -10,5 +10,6 @@ Rationale for using Java AWT/Swing: https://www.geeksforgeeks.org/java-awt-vs-ja
 
 Helpful websites:
 https://docs.oracle.com/javase/tutorial/2d/basic2d/index.html
+https://docs.oracle.com/javase/tutorial/essential/io/file.html
 https://docs.oracle.com/javase/tutorial/uiswing/events/keylistener.html
 https://docs.oracle.com/javase/tutorial/uiswing/events/mouselistener.html
