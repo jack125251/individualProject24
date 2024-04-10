@@ -3,7 +3,7 @@
 ## SketchApp
 
 Image:
-!(https://github.com/jack125251/individualProject24/blob/main/images/sketchdemoimage.png)
+![](https://github.com/jack125251/individualProject24/blob/main/images/sketchdemoimage.png)
 
 
 Rationale for using Java AWT/Swing: https://www.geeksforgeeks.org/java-awt-vs-java-swing-vs-java-fx/
