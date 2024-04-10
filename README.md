@@ -5,4 +5,4 @@
 
 
 
-Rationale for using Java AWT: https://www.geeksforgeeks.org/java-awt-vs-java-swing-vs-java-fx/
+Rationale for using Java AWT/Swing: https://www.geeksforgeeks.org/java-awt-vs-java-swing-vs-java-fx/
