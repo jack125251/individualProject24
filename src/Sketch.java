@@ -11,8 +11,25 @@ public class Sketch {
 		frame.setSize(400, 300);
 		
 		frame.getContentPane().add(new Canvas(), BorderLayout.CENTER);
-
-
+		
+		
+		
+		
+//		public static int DELAY = 1000/60;
+//
+//		Timer timer = new Timer(DELAY,new ActionListener() {
+//		    public void actionPerformed(ActionEvent event) 
+//		    {
+//		      updateModel();
+//		      repaintScreen();
+//		    }
+//		});
+//		timer.setRepeats(true);
+//		timer.start();
+		
+		
+		
 	}
 
+	
 }
