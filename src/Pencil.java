@@ -1,4 +1,10 @@
+import java.awt.Graphics;
 
-public class Pencil {
-
+@SuppressWarnings("serial")
+public class Pencil extends Tools {
+	public Pencil() {
+		Graphics g = getGraphics();
+		g.drawLine(point.x, point.y, point.x, point.y);
+		g.dispose();
+	}
 }
