@@ -1,4 +1,7 @@
 
-public class PaintBucket {
-
+public class PaintBucket extends Tools{
+	
+	PaintBucket(){
+		
+	}
 }

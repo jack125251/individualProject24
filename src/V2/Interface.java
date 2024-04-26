@@ -1,4 +1,7 @@
 
 public class Interface {
-
+	
+	Interface(){
+		
+	}
 }

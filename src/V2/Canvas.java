@@ -1,4 +1,7 @@
 
 public class Canvas {
-
+	
+	Canvas(){
+		
+	}
 }

@@ -1,4 +1,7 @@
 
 public class Tools {
-
+	
+	Tools(){
+		
+	}
 }
