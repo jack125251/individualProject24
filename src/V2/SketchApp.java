@@ -6,7 +6,9 @@ import javax.swing.*;
 public class SketchApp {
 
 	public static void main(String[] args) {
-
+		
+		SketchFrame frame = new SketchFrame();
+		
 	}
 
 }

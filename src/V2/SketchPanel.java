@@ -3,10 +3,25 @@ import java.awt.event.*;
 import java.util.*;
 import javax.swing.*;
 
-public class SketchPanel {
+public class SketchPanel extends JPanel implements Runnable{
+	
+	static final int SKETCH_WIDTH = 800;
+	static final int SKETCH_HEIGHT = (int)(SKETCH_WIDTH * (0.5625));
+	static final Dimension SCREEN_SIZE = new Dimension(SKETCH_WIDTH,SKETCH_HEIGHT);
+	Thread sketchThread;
+	Image image;
+	Graphics graphics;
+	Random random;
+	
 	
 	SketchPanel(){
+		this.setFocusable(true);
+		this.addKeyListener(new AL());
 		
+		this.setPreferredSize(SCREEN_SIZE);
+		
+		sketchThread = new Thread(this);
+		sketchThread.start();
 	}
 	
 	public void newCanvas() {
@@ -25,6 +40,10 @@ public class SketchPanel {
 		
 	}
 	
+	public void run() {
+		
+	}
+	
 //	public void save() {
 //		
 //	}
@@ -37,7 +56,13 @@ public class SketchPanel {
 		public void keyPressed(KeyEvent e) {
 			
 		}
-		public void keyPressed(KeyEvent e) {
+		public void keyReleased(KeyEvent e) {
+			
+		}
+	}
+	
+	public class ML extends MouseAdapter{
+		public void mousePressed(MouseEvent e) {
 			
 		}
 	}
