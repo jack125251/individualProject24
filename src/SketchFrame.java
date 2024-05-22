@@ -12,6 +12,7 @@ public class SketchFrame extends JFrame{
 		this.setTitle("Sketch");
 		// icon image
 		this.setResizable(false);
+		this.setFocusable(false);
 		
 		this.setBackground(Color.white);
 		
